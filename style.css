@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;600;700&display=swap');
+:root{
+    --bg-white: #fcfaf9;
+
+    --textColor: #191826;
+
+    --white-text-color: #fcfaf9;
+
+    --aquarella: #66e2dc;
+
+    --orange1: #ffb964;
+    --orange2: #fa7453;
+
+    --filtericons : filter: invert(57%) sepia(41%) saturate(2574%) hue-rotate(328deg) brightness(104%) contrast(96%);
+}
+
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
